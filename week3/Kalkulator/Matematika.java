@@ -1,7 +1,7 @@
-package  Kalkulator.Matematika;
-import Kalkulator.hitung;
+package week3.Kalkulator;
 
 public class Matematika {
+
     public int tambah(int a, int b) {
         return a + b;
     }
@@ -16,7 +16,7 @@ public class Matematika {
 
     public double bagi(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Pembagi tidak boleh nol");
+            throw new IllegalArgumentException("Error: Tidak bisa dibagi dengan nol!");
         }
         return (double) a / b;
     }

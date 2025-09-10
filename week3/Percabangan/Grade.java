@@ -1,5 +1,4 @@
-package Percabangan;
-import Percabangan.input;
+package week3.Percabangan;
 
 public class Grade {
 
@@ -15,7 +14,7 @@ public class Grade {
         } else if (score >= 60) {
             grade = 'D';
         } else {
-            grade = 'F';
+            grade = 'E';
         }
 
         return grade;

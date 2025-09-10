@@ -1,3 +1,4 @@
+package week3.input;
 import java.util.Scanner;
 public class input {
     public static void main(String[] args){

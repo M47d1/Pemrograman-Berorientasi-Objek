@@ -1,25 +1,24 @@
-package Kalkulator.hitung;
+package week3.Kalkulator;
 import java.util.Scanner;
-import kalkulator.Matematika;
 
 public class hitung {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Matematika matematika = new Matematika();
-        System.out.println("Input angka pertama:");
+
+        System.out.print("Input angka pertama: ");
         int a = scanner.nextInt();
-        System.out.println("Input angka kedua:");
+
+        System.out.print("Input angka kedua: ");
         int b = scanner.nextInt();
-        
-        System.out.println("Pilih Opsi:");
+
+        System.out.println("\nPilih Opsi:");
         System.out.println("1. Penjumlahan");
         System.out.println("2. Pengurangan");
         System.out.println("3. Perkalian");
         System.out.println("4. Pembagian");
         System.out.println("5. Rata-rata");
         int pilihan = scanner.nextInt();
-        scanner.close();
-
 
         switch (pilihan) {
             case 1:
@@ -44,5 +43,7 @@ public class hitung {
             default:
                 System.out.println("Opsi tidak valid");
         }
+
+        scanner.close();
     }
 }
