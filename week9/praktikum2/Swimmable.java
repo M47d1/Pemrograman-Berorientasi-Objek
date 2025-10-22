@@ -1,5 +1,5 @@
 package week9.praktikum2;
 
-public class Swimmable {
+public interface Swimmable {
     void swim();
 }

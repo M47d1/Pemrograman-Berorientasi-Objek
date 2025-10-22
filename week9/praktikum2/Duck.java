@@ -7,14 +7,16 @@ public class Duck extends Animal implements Flyable, Swimmable {
 
     @Override
     public void makeSound(){
-        System.out.println(name + " urururu ");
+        System.out.println(name + " bersuara: Kwek kwek!");
     }
 
+    @Override
     public void fly(){
-        System.out.println(name + "......");
+        System.out.println(name + " sedang terbang di langit!");
     }
 
+    @Override
     public void swim(){
-        System.out.println(name + ".......");
+        System.out.println(name + " sedang berenang di danau!");
     }
 }

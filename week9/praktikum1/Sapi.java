@@ -1,6 +1,6 @@
 package week9.praktikum1;
 
-public abstract class Sapi extends Hewan {
+public class Sapi extends Hewan {
 
     public Sapi(String nama, int jumKaki, boolean bisaTerbang) {
         super(nama, jumKaki, bisaTerbang);
@@ -8,6 +8,6 @@ public abstract class Sapi extends Hewan {
     
     @Override
     public void bersuara(){
-        System.out.println("GOG, GOG, GOG");
+        System.out.println(nama + " bersuara: Moo... Moo...");
     }
 }

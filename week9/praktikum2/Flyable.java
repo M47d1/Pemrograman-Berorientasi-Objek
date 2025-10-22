@@ -1,5 +1,5 @@
 package week9.praktikum2;
 
-public class Flyable {
+public interface Flyable {
     void fly();
 }
